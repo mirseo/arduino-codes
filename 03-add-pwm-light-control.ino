@@ -17,4 +17,9 @@ void loop() {
   analogWrite(GREEN, 100);
   delay(1000);
   analogWrite(GREEN, 150);
+  delay(1000);
+  analogWrite(GREEN, 200);
+  delay(1000);
+  // max-pwm
+  analogWrite(GREEN, 255);
 }
